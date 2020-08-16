@@ -1,0 +1,97 @@
+@media screen and (max-width: 960px) {
+
+  .site-branding__name a:last-of-type {padding: 0px 20px;}
+
+  .site-branding__name {height: 100px;}
+
+  #site-name {font-size: 32px;}
+
+  #content {width: 70%;}
+
+  #sidebar-first {width: 30%;}
+
+  #header-dove {float: left; width: 57px; height: 57px; background: url("../images/dove-57.png"); transform: translate(0px, -30px);}
+
+  #block-troitsa-theme-branding {display: inline-block; margin: 0 auto;text-align: left; padding: 14px 0px;}
+
+  #header-troitsa {max-width: 82px; height: 86px;}
+}
+
+@media screen and (max-width: 860px) {
+
+  .site-branding__name a:last-of-type {padding: 0px 14px;}
+
+  #site-name {font-size: 31px;}
+
+  #content {width: 70%;}
+
+  #sidebar-first {width: 30%;}
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #sidebar-first {width: 100%; float: none; clear: both;}
+
+  #content {width: 100%; float: none; clear: both;}
+
+  #site-name {font-size: 28px;}
+
+}
+
+@media screen and (max-width: 680px) {
+
+  .region-header {width: 88%;}
+
+  #block-troitsa-theme-branding {padding: 14px 0px;}
+
+  .site-branding__name a:last-of-type {padding: 0px 4px;}
+
+  #site-name {padding-left: 12px; font-size: 28px;}
+
+  #menu-button {display: block; float: right; margin: 10px 0px;}
+
+  #header-dove {display: none;}
+
+  /*  Mobile menu style  */
+
+  header ul.menu li {display: block; padding: 14px 0px; background: linear-gradient(to bottom, #4e8d64, transparent); border-bottom: 1px solid #76987c;
+}
+
+  header ul.menu a {padding: 0px;}
+
+  header ul.menu a.is-active {border-bottom: none;}
+
+  header ul.menu a:hover {
+  border-bottom: none;
+}
+
+  #block-troitsa-theme-main-menu {position: absolute; top: 0; left: 0; width: 76%; height: 100%; background: #3f7853f8;}
+
+  header .region-primary-menu {background: rgba(30, 30, 30, 0.7); position: fixed; top: 0; left: 0; width: 100%; height: 100%; transform: translate(-100%,0); opacity: 30%;}
+
+  img#menu-close-button {display: block;}
+
+  header h2.mobile-menu-caption {display: block;}
+
+  /*  End of mobile menu style  */
+}
+
+
+@media screen and (max-width: 520px) {
+
+  .region-header {width: 92%;}
+
+  #header-troitsa {max-width: 72px; height: 72px;}
+}
+
+
+@media screen and (max-width: 400px) {
+
+  #menu-button {position: absolute; display: flex; top: 123px; right: 5px; background: rgb(50, 174, 100); border-radius: 3px;}
+
+  .region-content {padding: 0px 0px; font-size: 18px;}
+
+}
+
+

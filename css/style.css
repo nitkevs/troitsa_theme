@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans|Philosopher&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 1.3em;
+  font-size: 15px;
+  color: #333;
+}
+
+#main-wrapper {
+  width: 1096px;
+  margin: 0px auto;
+}
+
+h1 {
+  font-size: 22px;
+  color: #555;
+  padding-right: 67px;
+  line-height: 1.3em;
+}
+
+h2 {
+  font-size: 18px;
+  color: #555;
+}
+
+input[type="search"] {
+  margin-bottom: 12px;
+}
+
+/* ----- header  ----- */
+
+header {
+  background: linear-gradient(to bottom,#6dd587,#2e9e5b);
+  color: #99a09c;
+  padding: 0px;
+}
+
+ul.menu {
+  margin: 0px;
+}
+
+header ul.menu li {
+  display: inline-block;
+  padding: 10px 15px 0px;
+  margin: 0px;
+}
+
+header ul.menu a {
+  display: block;
+  margin: 0px;
+  padding-bottom: 5px;
+  color: #f5f5f5;
+  border-bottom: 3px solid transparent;
+}
+
+header ul.menu a:hover {
+  border-bottom: 3px solid #eee;
+}
+
+header ul.menu a.is-active {
+  display: block;
+  border-bottom: 3px solid #e1c466;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+#block-troitsa-theme-branding {
+  padding: 14px 40px;
+}
+
+#site-name {
+  font-size: 40px;
+  color: #f7f7f7;
+  text-shadow: 0px 1px 4px #393d2e;
+  font-family: 'Philosopher', sans-serif;
+  line-height: 1em;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.region-header {
+  max-width: 1096px;
+  width: 96%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#block-troitsa-theme-main-menu {
+  max-width: 1096px;
+  margin: 0 auto;
+}
+
+#block-troitsa-theme-main-menu > .menu {
+  text-align: center;
+}
+
+.site-branding__name a:last-of-type {
+  padding: 0px 20px;
+}
+
+.site-branding__name {
+  display: flex;
+  align-items: center;
+}
+
+#menu-button {
+  display: none;
+}
+
+header .region-primary-menu {
+  background: #3f7853;
+  position: static;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  transition-duration: 0.6s;
+  transform: translate(0%, 0%);
+  opacity: 1;
+}
+
+img#menu-close-button {
+    display: none;
+    position: absolute;
+    top: 18px;
+    right: 18px;
+}
+
+h2.mobile-menu-caption {
+    display: none;
+    text-align: center;
+    color: #eee;
+}
+
+#header-dove {
+  float: left;
+  width: 77px;
+  height: 77px;
+  background-image: url("../images/dove-77.png");
+  background-repeat: no-repeat;
+  transform: translate(0px, -30px);
+}
+
+#header-troitsa {
+  opacity: 87%;
+  width: 110px;
+  height: 110px;
+}
+
+#header-troitsa img {
+  height: 100%;
+}
+/* ----- end of header ----- */
+
+/* ----- sidebar-first ----- */
+
+#sidebar-first {
+  float: left;
+  width: 25%;
+}
+
+#main-wrapper .region-sidebar-first ul.menu a, #main-wrapper .region-sidebar-second ul.menu a {
+  color: #128139;
+  text-decoration: none;
+}
+
+#main-wrapper .region-sidebar-first ul.menu a:hover, #main-wrapper .region-sidebar-second ul.menu a:hover {
+  color: #128139;
+  text-decoration: underline;
+}
+
+#main-wrapper .region-sidebar-first .block, #main-wrapper .region-sidebar-second .block {
+  margin: 14px 16px 20px 4px;
+  padding: 0px 12px 20px 12px;
+  border: 1px solid #f0f0f0;
+  border-radius: 7px;
+  background-color: #f7f7f7;
+}
+
+
+#main-wrapper .region-sidebar-first .block .menu-item, #main-wrapper .region-sidebar-second .block .menu-item {
+  padding-top: 0.5em;
+  margin-left: 16px;
+}
+
+#main-wrapper .region-sidebar-first .block .menu-item, #main-wrapper .region-sidebar-second .block h2 {
+  margin-left: 8px;
+}
+/* ----- end of sidebar-first ----- */
+
+/* ----- main ----- */
+
+#main-wrapper {
+  width: 96%;
+  max-width: 1096px;
+  margin-top: 20px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+#main-wrapper a {
+  color: #128139;
+}
+
+#content {
+  float: right;
+  width: 75%;
+}
+
+nav.tabs li a {
+  color: #128139;
+}
+
+.region-content {
+ padding: 0px 10px;
+}
+
+
+/* ----- end of main ----- */
+
+/* ----- footer ----- */
+
+footer.site-footer {
+  background: #5f5f5f;
+  padding: 12px;
+}
+
+footer.site-footer .layout-container {
+  max-width: 1066px;
+  margin: 0px auto;
+  padding: 15px;
+  border: 1px solid #888;
+  color: #eee;
+}
+
+footer.site-footer .layout-container a {
+  color: #bbb;
+}
+/* ----- end of footer ----- */
+
